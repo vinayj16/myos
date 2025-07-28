@@ -265,4 +265,4 @@ void window_update_drag(int16_t x, int16_t y) {
         if (windows[dragging_window].x < 0) windows[dragging_window].x = 0;
         if (windows[dragging_window].y < 0) windows[dragging_window].y = 0;
     }
-} 
+}

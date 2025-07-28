@@ -174,4 +174,4 @@ char keyboard_get_char(void) {
 // Check if keyboard buffer has data
 int keyboard_has_data(void) {
     return keyboard_buffer_head != keyboard_buffer_tail;
-} 
+}

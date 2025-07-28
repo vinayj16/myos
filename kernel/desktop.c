@@ -569,4 +569,4 @@ void desktop_handle_input(void) {
     if (sim_y <= 0 || sim_y >= desktop_height - taskbar_height - 12) sim_dy = -sim_dy;
     
     mouse_set_position(sim_x, sim_y);
-} 
+}
